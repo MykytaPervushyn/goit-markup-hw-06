@@ -458,16 +458,25 @@
           <div class="form-field">
             <input class="form-input" type="text" name="name" id="name" />
             <label for="name" class="form-label">Ім'я</label>
+            <svg class="modal-icon">
+              <use href="./images/sprite.svg#icon-person-modal"></use>
+            </svg>
           </div>
 
           <div class="form-field">
             <input class="form-input" type="tel" name="tel" id="tel" />
             <label for="tel" class="form-label">Телефон</label>
+            <svg class="modal-icon">
+              <use href="./images/sprite.svg#icon-phone-modal"></use>
+            </svg>
           </div>
 
           <div class="form-field">
             <input class="form-input" type="mail" name="mail" id="mail" />
             <label for="mail" class="form-label">Пошта</label>
+            <svg class="modal-icon">
+              <use href="./images/sprite.svg#icon-email-modal"></use>
+            </svg>
           </div>
 
           <div class="form-field">
@@ -481,15 +490,15 @@
 
           <div class="form-field check">
             <input
-              class="form-input"
+              class="checkbox visually-hidden"
               type="checkbox"
               name="accept"
               id="accept"
             />
-            <label for="accept" class="form-label check"
+            <label for="accept" class="form-label form-label-check"
               >Погоджуюсь із розсилкою і приймаю
-              <a href="#" class="link">Умови договору</a></label
-            >
+              <a href="#" class="check-link link"> Умови договору</a>
+            </label>
           </div>
 
           <button type="submit" class="button secondary">Відправити</button>

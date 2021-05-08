@@ -63,7 +63,7 @@
           <h1 class="visually-hidden">Портфоліо</h1>
           <ul class="filters-list list">
             <li class="item">
-              <button type="button" class="filter current">Всі</button>
+              <button type="button" autofocus class="filter">Всі</button>
             </li>
             <li class="item">
               <button type="button" class="filter">Веб-сайти</button>
@@ -354,6 +354,33 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-blocks form">
+          <p class="join">підпишіться на розсилку</p>
+          <form
+            class="footer-form"
+            name="footer-form"
+            autocomplete="on"
+            novalidate
+          >
+            <div class="footer-form-field">
+              <label for="email" class="email"></label>
+              <input
+                class="footer-input"
+                type="mail"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+              />
+            </div>
+
+            <button type="submit" class="footer-button">
+              Підписатись
+              <svg class="footer-icon">
+                <use href="./images/sprite.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
