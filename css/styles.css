@@ -573,6 +573,7 @@ textarea {
   width: 358px;
   height: 50px;
   background-color: transparent;
+  color: var(--primary-background-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -812,6 +813,7 @@ textarea {
   overflow-y: auto;
   width: 528px;
   height: 581px;
+  padding: 40px;
   background-color: var(--primary-background-color);
 
   display: flex;
@@ -830,11 +832,11 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: block;
+  /* display: block; */
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  margin-top: 8px;
-  margin-right: 8px;
+  top: 8px;
+  right: 8px;
   width: 30px;
   height: 30px;
   color: var(--logo-header-color);
@@ -858,11 +860,11 @@ textarea {
 
 .modal-form {
   /* width: 100%; */
-  min-width: 448px;
+  /* min-width: 448px; */
   margin-left: auto;
   margin-right: auto;
-  padding: 40px;
-  align-self: center;
+  /* padding: 40px; */
+  /* align-self: center; */
 }
 
 .form-title {
@@ -901,12 +903,15 @@ textarea {
   line-height: 1.2;
   letter-spacing: 0.01em;
 
+  cursor: pointer;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-label-check {
   display: flex;
   align-items: center;
+  margin-left: 14px;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
